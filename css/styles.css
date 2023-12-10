@@ -106,19 +106,15 @@ button {
 .hero-div {
     display: block;
     width: 511px;
-  
 }
 
-.hero-pic {
-
-}
 .hero-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 57.6px; 
     margin-top: 159px;
-
 }
+
 .hero-text {
     line-height: 24px;
     margin-top: 28px;
@@ -134,6 +130,67 @@ button {
 }
 
 /* Offerings section*/
+
+.offerings-container {
+    background-color: #FFE550;
+    padding: 113px 51px 124px 16px;
+}
+
+.offerings-div {
+    display: flex;
+    justify-content: space-around;
+}
+.offerings-pic {
+    margin-left: 100px;
+    margin-right: 160px;
+}
+
+.right-side-div {
+   margin-top: 0;
+    
+} 
+.offerings-list-one {
+    
+}
+
+.offerings-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50.4px;
+    margin-top: 83px;
+    width: 526.167px;
+}
+.offerings-text {
+    display: block;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-bottom: 96px;
+    width: 500px;
+}
+.offerings-list-two {
+    display: flex;
+    gap: 67px;
+}
+.offerings-item {
+}
+.offerings-subtitle {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.offerings-list-text {
+    
+    width: 253px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.offerings-btn {
+    display: block;
+    margin-top: 32px;
+    border: 2px solid var(--Dark-green, #7EB101);
+    background: #FFF;
+}
 
 /* Favorites section*/
 
