@@ -1,0 +1,144 @@
+body {
+    color: #2C2C2C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+display: block;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2c2c2c;
+}
+
+.container {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+    outline: 2px solid #2c2c2c;
+
+}
+
+button {
+    border-radius: 30px;
+    background-color: #BBF330;
+    min-width: 98px;
+    height: 32px;
+    cursor: pointer;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5; 
+}
+
+/* Header section*/
+.header-section {
+    background-color: fff;
+}
+
+.header-container {
+    
+    width: 1280px;
+    height: 72px;
+    justify-content: space-around;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-logo {
+    margin: 10px auto 10px 0;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    color: #BBF330;
+}
+
+.header-list {
+    display: flex;
+    gap: 28px;
+    margin: 20px 0;
+    padding: 8px 0;
+}
+
+.header-link {
+    color: var(--Black, #2C2C2C);
+}
+
+.header-btn {
+    display: block;
+    margin: 20px 0 20px 30px;
+}
+
+/* Hero section*/
+.hero-section {
+    background-color: var(--White, #FEFEFE);
+    display: flex;
+    justify-content: space-between;
+} 
+
+.hero-div {
+    display: block;
+    width: 511px;
+  
+}
+
+.hero-pic {
+
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px; 
+    margin-top: 159px;
+
+}
+.hero-text {
+    line-height: 24px;
+    margin-top: 28px;
+}
+
+.hero-btn {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 150px;
+    padding: 6px 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Offerings section*/
+
+/* Favorites section*/
+
+/* Customers section*/
+
+/* Subscribe section*/
+
+/* Footer section*/
