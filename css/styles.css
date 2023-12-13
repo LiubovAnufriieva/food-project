@@ -52,6 +52,7 @@ button {
     font-size: 13px;
     font-weight: 500;
     line-height: 1.5; 
+    
 }
 
 /* Header section*/
@@ -127,6 +128,8 @@ button {
     padding: 6px 18px;
     justify-content: center;
     align-items: center;
+    width: 103px;
+    height: 42px;
 }
 
 /* Offerings section*/
@@ -186,6 +189,8 @@ button {
     margin-top: 32px;
     border: 2px solid var(--Dark-green, #7EB101);
     background: #FFF;
+    width: 103px;
+    height: 42px;
 }
 
 /* Favorites section*/
@@ -347,21 +352,29 @@ button {
 /* Footer section*/
 
 .footer-container {
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+   
+    margin: 0;
+}
 
-    padding: 0;
+.footer-left-side {
+    display: block;
+    align-content: space-between;
+
 }
 
 .footer-nav {
     display: flex;
     align-items: center;
     justify-content: start;
-    
+    margin: 0;
+    margin-bottom: 129px;
 }
 
 .footer-logo {
     margin-right: 143px;
-    
 }
 
 .footer-nav-list {
@@ -374,4 +387,70 @@ button {
     font-weight: 400;
 }
 
+.footer-list-down {
+    display: flex;
+    gap: 20px;
+    
+}
 
+.link-down {
+    color: var(--Dark-green, #7EB101);
+    font-size: 12px;
+    text-decoration-line: underline;
+}
+
+.footer-right-side {
+    display: block;
+    margin: 0;
+    width: 398px;
+    
+}
+
+.subscribe-text {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.subscribe-form {
+    padding: 12px 61.5px 12px 12px;
+    align-items: center;
+    border-radius: 30px;
+    border: 0.854px solid #FFE550;
+    background: #FEFEFE;
+    width: 279px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.form-btn-div {
+    display: flex;
+    gap: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.subscribe-btn {
+    width: 103px;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    border: 0.854px solid #7EB101;
+    background: #FFF;
+}
+
+.subscribe-text-down {
+    font-size: 12px;
+   
+}
+
+.footer-privacy-span {
+    color: var(--Dark-green, #7EB101);
+    text-decoration-line: underline;
+}
+
+.subscribe-text-last {
+    font-size: 12px;
+    margin: 0;
+    margin-top: 80px;
+    margin-left: 224px;
+}
