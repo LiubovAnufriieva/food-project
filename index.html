@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food delivery</title>
+     <!-- Favicon -->
+     <link
+     rel="shortcut icon"
+     href="./images/food-favicon.png"
+     type="image/x-icon"
+     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,7 +46,7 @@
               <a class="header-link" href="">Contact</a>
             </li>
           </ul>
-          <button class="header-btn" type="button">Order Now</button>
+          <button class="header-btn button" type="button" data-modal-open>Order Now</button>
         </nav>
       </div>
     </header>
@@ -55,7 +61,7 @@
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
             </p>
-         <button class="hero-btn" type="button">Order Now</button>
+         <button class="hero-btn button" type="button">Order Now</button>
          
       </div>
       <div class="hero-img-div"> 
@@ -211,10 +217,12 @@
               Order now and receive 10% off your first meal with Enjoy Your Favorite
               Food From Anywhere.
             </p>  
-            <ul class="subscribes-list-small"> 
-              <li><p class="subscribe-text-small">Enter your email</p></li>
-              <li><button class="subscribe-btn" type="submit">Subscribe</button></li>
-            </ul>  
+            <div class="subscribes-div-small"> 
+              <form class="subscribe-form-small">
+                <input class="input-form-small" type="text" placeholder="Enter your email">
+              </form>
+              <button class="subscribe-button button" type="submit">Subscribe</button>
+            </div>  
           </li>  
           <li> 
             <img class="subscribe-pic" src="./images/banan.svg" alt="banan" width="608" height="266" />
@@ -244,35 +252,18 @@
           </ul>
         </div>
 
-   <!--   <div class="footer-wrapper">
-          <p class="wrapper-caption">Subscribe</p>
-          <form class="subscribe-form" name="subscribe">
-            <label class="subscribe-form-field">
-              <input class="subscribe-form-input" name="email"
-                type="email"
-                placeholder="E-mail" />
-            </label>
-            <button class="subscribe-form-btn" type="submit">
-                Subscribe
-              <svg class="subscribe-form-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>-->
+        <!-- Modal window -->
         <div class="footer-right-side"> 
-          <div class="footr-form-div">
-            <form  class="subscribe-form" name="subscribe">
+          <div class="footer-form-div">
+            <form class="subscribe-form" name="subscribe" >
               <label class="subscribe-label" for="input-form">
                 Subscribe
               </label>
               <input id="input-form" class="subscribe-form-input" name="email"
                   type="email"
                   placeholder="Enter your email" />
-
-              
-              <button class="subscribe-btn" type="submit">Subscribe</button>
             </form>
+            <button class="subscribe-btn button" type="submit">Subscribe</button>
           </div>
           <p class="subscribe-text-down">By subscribing you agree to with our<a href=""> <span class="footer-privacy-span">Privacy Policy</span></a></p>
           
@@ -280,5 +271,36 @@
         </div>
       </div>
     </footer>
+
+    <!-- modal -->
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="modal-close-btn" type="button" data-modal-close>
+        <svg class="close-btn-icon" width="24" height="24">
+          <use href="./images/sprite.svg#icon-cross-icon"></use>
+        </svg>
+      </button>
+      <form class="modal-form">
+        <p class="modal-title">Order Form</p>
+        <div class="modal-field">
+          <label for="user-name" class="modal-lable">Name</label>
+          <input id="user-name" type="text" class="modal-input" name="user-name" placeholder="Your name">
+        </div>
+        <div class="modal-field">
+          <label for="user-phone" class="modal-lable">Phone number</label>
+          <input id="user-phone" type="tel" class="modal-input" name="user-phone" placeholder="+38(0_ _) _ _ _   _ _   _ _">
+        </div>
+        <div class="modal-field">
+          <label for="user-email" class="modal-lable">E-mail</label>
+          <input id="user-email" type="email" class="modal-input" name="user-email" placeholder="example@gmail.com">
+        </div>
+        <button class="modal-send-btn" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/modal.js"></script>
+
+
   </body>
 </html>
