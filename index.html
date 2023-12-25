@@ -48,26 +48,30 @@
       <!-- Hero section -->
       <section class="container hero-section">
         <div class="hero-div">  
-         <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
-         <p class="hero-text">
+          <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="hero-text">
           With just a few clicks, you can have your favorite meals delivered
           straight to your doorstep, no matter where you are. Order now and
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
-         </p>
+            </p>
          <button class="hero-btn" type="button">Order Now</button>
          
       </div>
-      <img class="hero-pic" src="./images/salad.png" alt="images-of-salad" width="528" />
-      </section>
+      <div class="hero-img-div"> 
+         <img class="hero-pic" src="./images/salad.png" alt="images-of-salad" width="528" />
+      </div>
+    </section>
 
       <!-- Offerings section -->
       <section class="container offerings-container">
         <div class="offerings-div">  
-          <img class="offerings-pic" src="./images/aple.svg" alt="image-of-apple" 
-         width="396"
-         />
-
+          <div class="offerings-img-div"> 
+            <img class="offerings-pic" src="./images/apple.png" alt="image-of-apple" 
+          width="396" height="502"
+          />
+          </div>
+        </div>
         <div class="right-side-div">   
           <ul class="offerings-list-one"> 
             <li> 
@@ -81,6 +85,11 @@
           </ul>
           <ul class="offerings-list-two">
             <li class="offerings-item">
+              <div class="offerings-icon-div"> 
+                <svg class="offerings-item-icon" width="32" height="32">
+                  <use href="./images/sprite.svg#icon-Vector"></use>
+                </svg>
+              </div>
               <h3 class="offerings-subtitle">Fasest Delivery</h3>
               <p class="offerings-list-text">
                 Our advanced logistics system and dedicated delivery partners
@@ -88,6 +97,11 @@
               </p>
             </li>
             <li class="offerings-item">
+              <div class="offerings-icon-div"> 
+                <svg class="offerings-item-icon" width="32" height="32">
+                  <use href="./images/sprite.svg#icon-touch-app"></use>
+                </svg>
+              </div>
               <h3 class="offerings-subtitle">Easy To Order</h3>
               <p class="offerings-list-text">
                 You can browse through a wide variety of cuisines and restaurants,
@@ -96,9 +110,9 @@
               </p>
             </li>
           </ul>
-          <button class="offerings-btn" type="button">Order Now</button>
+          <button class="offerings-btn button" type="button">Order Now</button>
         </div>  
-       </div>
+        
       </section>
 
       <!-- Favorites section -->
@@ -106,16 +120,41 @@
         <div class="favorites-div"> 
           <h2 class="favorites-title">Some of Our Favorites</h2>
           <p class="favorites-text">Looking for something delicious?</p>
-          <ul class="favorites-list">
-            <li class="favorites-item">
-              <img class="favorites-img" src="./images/gamburger.png" alt="gamburger" width="315" />
-            </li>
-            <li class="favorites-item"><img class="favorites-img" src="./images/Pasta.png" alt="pasta" width="315" /></li>
-            <li class="favorites-item"><img class="favorites-img" src="./images/pizza.png" alt="pizza" width="315" /></li>
-            <li class="favorites-item"><img class="favorites-img" src="./images/chicken.png" alt="chicken" width="315" /></li>
-            <li class="favorites-item"><img class="favorites-img" src="./images/salat.png" alt="salat" width="315" /></li>
-            <li class="favorites-item"><img class="favorites-img" src="./images/borshch.png" alt="borshch" width="315" /></li>
-          </ul>
+          
+          <div class="fav-list-div">
+            <ul class="favorites-list">
+              <li class="favorites-item">
+                <div class="fav-item-div">
+                  <img class="favorites-img" src="./images/gamburger.png" alt="gamburger" width="315" height="315"/>
+                </div>
+              </li>
+              <li class="favorites-item">
+                <div class="fav-item-div">
+                  <img class="favorites-img" src="./images/Pasta.png" alt="pasta" width="315" height="315"/>
+                </div>
+              </li>
+              <li class="favorites-item">
+                <div class="fav-item-div">
+                  <img class="favorites-img" src="./images/pizza.png" alt="pizza" width="315" height="315"/> 
+                </div>
+              </li>
+              <li class="favorites-item">
+                <div class="fav-item-div">
+                  <img class="favorites-img" src="./images/chicken.png" alt="chicken" width="315" height="315"/>
+                </div>
+              </li>
+              <li class="favorites-item">
+                <div class="fav-item-div">
+                  <img class="favorites-img" src="./images/salat.png" alt="salat" width="315"height="315"/>
+                </div>
+              </li>
+              <li class="favorites-item">
+                <div class="fav-item-div">
+                  <img class="favorites-img" src="./images/borshch.png" alt="borshch" width="315" height="315"/>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -128,22 +167,35 @@
           <div class="review-cards">    
             <ul class="customers-list">
               <li class="customers-item">
+                <svg class="stars-icon" width="101" height="16">
+                  <use href="./images/sprite.svg#icon-Stars-icons"></use>
+                </svg>
                 <p class="customers-list-text">  
                       “The Best app I have used to order food in a while, so many
                       options to choose from too, I would recommend to a freind, No
                       questions asked”
                 </p>
-                <h3 class="customers-list-title">Sumith Shah</h3>
-                <p class="customers-text-small">Some Dude</p> 
+                <div class="item-down-div">
+                  <img class="item-down-img"  src="./images/face-one.png" alt="face-icon" width="48" height="48">
+                  <p class="customers-list-title">Sumith Shah</p>
+                  <p class="customers-text-small">Some Dude</p>
+                </div>
               </li>
               <li class="customers-item">
+                <svg class="stars-icon" width="101" height="16">
+                  <use href="./images/sprite.svg#icon-Stars-icons"></use>
+                </svg>
                 <p class="customers-list-text">
                     “The ease with which I can just go in and order what i want was
                     amazing, It has been a very pleasant experience ordering from this
                     app”
                 </p>
-                <h3 class="customers-list-title">Sumith Shah</h3>
-                <p class="customers-text-small">Some Dude</p>
+        
+                <div class="item-down-div">
+                  <img class="item-down-img" src="./images/face-two.png" alt="face-icon" width="48" height="48">
+                  <p class="customers-list-title">Sumith Shah</p>
+                  <p class="customers-text-small">Some Dude</p>
+                </div>
               </li>
             </ul>
           </div>  
@@ -191,11 +243,36 @@
               <li><a class="link-down" href="">Cookies Settings</a></li>
           </ul>
         </div>
+
+   <!--   <div class="footer-wrapper">
+          <p class="wrapper-caption">Subscribe</p>
+          <form class="subscribe-form" name="subscribe">
+            <label class="subscribe-form-field">
+              <input class="subscribe-form-input" name="email"
+                type="email"
+                placeholder="E-mail" />
+            </label>
+            <button class="subscribe-form-btn" type="submit">
+                Subscribe
+              <svg class="subscribe-form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>-->
         <div class="footer-right-side"> 
-          <p class="subscribe-text">Subscribe</p>
-          <div class="form-btn-div">
-            <p class="subscribe-form">Enter your email</p>
-            <button class="subscribe-btn" type="submit">Subscribe</button>
+          <div class="footr-form-div">
+            <form  class="subscribe-form" name="subscribe">
+              <label class="subscribe-label" for="input-form">
+                Subscribe
+              </label>
+              <input id="input-form" class="subscribe-form-input" name="email"
+                  type="email"
+                  placeholder="Enter your email" />
+
+              
+              <button class="subscribe-btn" type="submit">Subscribe</button>
+            </form>
           </div>
           <p class="subscribe-text-down">By subscribing you agree to with our<a href=""> <span class="footer-privacy-span">Privacy Policy</span></a></p>
           
