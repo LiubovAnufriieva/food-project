@@ -99,23 +99,25 @@ img {
     background-color: var(--White, #FEFEFE);
     display: flex;
     justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 69px;
 } 
 
 .hero-div {
-    display: block;
     width: 511px;
+    margin: auto 0;
 }
 
 .hero-title {
     font-size: 48px;
     font-weight: 700;
     line-height: 1.2; 
-    margin-top: 159px;
+    margin-bottom: 28px;
 }
 
 .hero-text {
     line-height: 1.5;
-    margin-top: 28px;
+    margin-bottom: 40px;
 }
 
 .hero-btn:hover,
@@ -125,7 +127,6 @@ img {
 
 .hero-btn {
     display: block;
-    margin-top: 40px;
     padding: 6px 18px;
     justify-content: center;
     align-items: center;
@@ -144,20 +145,18 @@ img {
 .hero-img-div {
     width: 580px;
     height: 580px;
-    flex-shrink: 0;
     border-radius: 580px;
     border: 26px solid var(--Yellow-main, #FFE550);
     background-color: transparent;
-    margin-top: 14px;
-    margin-right: 30px;
-    margin-bottom: 69px;
+    
+    margin-right: 14px;
 }
 
 /* Offerings section*/
 
 .offerings-container {
     background-color: #FFE550;
-    padding: 0 51px 124px 16px;
+    padding: auto 0;
     display: flex;
     gap: 90px;
     position: relative;
@@ -174,7 +173,7 @@ img {
     border: 5px solid rgba(255, 255, 255, 0.50);
     background-color: transparent;
     margin-top: 167px;
-    
+    margin-bottom: 124px;
 }
 
 .offerings-ellips {
@@ -191,53 +190,58 @@ img {
     height: 502px;
     border-radius: 502px;
     background-color: #FEFEFE;
+    margin-bottom: 8px;
 }    
 
 .offerings-pic {
-    
     position: absolute;
     top: 113px;
     left: 100px;
-
 }
 
 .right-side-div {
-   margin-top: 196px;
+    margin-top: 196px;
 } 
 
 .offerings-title {
     font-size: 42px;
     font-weight: 700;
     line-height: 50.4px;
-    
     width: 526.167px;
+
+    margin-bottom: 40px;
+
 }
 .offerings-text {
     display: block;
     line-height: 24px;
-    margin-top: 40px;
     width: 500px;
+    margin-bottom: 40px;
 }
 .offerings-list-two {
     display: flex;
     gap: 67px;
-  
+    margin-bottom: 40px;
 }
 
 .offerings-item {
     display: block;
-
     position: relative;
     width: 253px;
     height: 181px;
     padding-top: 56px;
-    margin-top: 40px;
 }
+
+
+.offerings-icon-div:hover {
+    background-color:#BBF330;
+    stroke: #FFE450;
+} 
 
 .offerings-icon-div {
     position: absolute;
     top: 0;
-    left: 2px;
+    left: 0;
 
     display: flex;
     align-items: center;
@@ -247,25 +251,22 @@ img {
     height: 48px;
     background-color: #FEFEFE;
     border-radius: 50%;
-    margin-bottom: 8px;
-
 }
 
 .offerings-subtitle {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 8px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.4; /* 25.2px */
-
+    margin-bottom: 16px;
 }
 .offerings-list-text {
     width: 253px;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    margin-top: 16px;
+    margin-bottom: 32px;
 }
 
 .offerings-btn:hover,
@@ -280,7 +281,6 @@ img {
     padding: 10px 0;
     border: 2px solid #7EB101;
     background-color: #FFF;
-    margin-top: 32px;
     width: 106px;
     height: 40px;
 }
@@ -288,29 +288,29 @@ img {
 /* Favorites section*/
 
 .favorite-container {
-    padding: 120px 0 101px 0;
+    padding: auto;
 }
 
 .favorites-div {
     margin: 0;
-    padding: 0;
+    padding: 120px 0 101px 0;
 }
 
 .favorites-title {
     text-align: center;
     font-size: 42px;
     font-weight: 700;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 20px;
+    
 }
 .favorites-text {
     text-align: center;
     padding: 0;
-    margin: 20px auto 40px auto;
+    margin-bottom: 40px;
 }
 
 .fav-list-div {
-
+    
 }
 
 .favorites-list {
@@ -318,13 +318,11 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
-    margin: 0;
-    padding: 0;
+    
 }
 .favorites-item {
     width: calc((100% - 64px) / 3);
-    margin: 0;
-    padding: 0;
+    
 }
 
 .fav-item-div:hover {
@@ -342,8 +340,6 @@ img {
     border-radius: 197.5px;
     border: 16px solid var(--Yellow-main, #FFE550);
     background-color: transparent;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -355,7 +351,7 @@ img {
 /* Customers section*/
 .customers-container {
     background-color: #FFE550;
-    padding: 0;
+    padding: auto;
 }
 
 .customers-div {
@@ -380,9 +376,6 @@ img {
 .customers-list {
     display: flex;
     gap: 139px;
-    margin: 0;
-    padding: 0;
-    
 }
 
 .stars-icon {
