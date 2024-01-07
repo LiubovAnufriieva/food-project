@@ -582,17 +582,13 @@ img {
 .subscribe-form {
     display: block;
     align-items: flex-start;
-    gap: 24px;
-    
-   
+    gap: 24px; 
 }
-
 
 .subscribe-label {
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.5;
-    
+    line-height: 1.5;  
 }
 
 .subscribe-form-input {
