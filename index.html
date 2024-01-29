@@ -71,8 +71,6 @@
          
       </div>
 
-      
-
       <div class="hero-img-div"> 
         <picture>
           <source media="(min-width: 1280px)" srcset="./images/desk/hero_desk@1x.png 1x, ./images/desk/hero_desk@2x.png 2x" >
@@ -82,10 +80,8 @@
                 class="hero-pic"
                 src="./images/desk/hero_desk@1x.png"
                 alt="images-of-salad"
-    
                 />
         </picture>
-        
       </div>
     </section>
 
@@ -99,8 +95,7 @@
               <source media="(min-width: 1280px)" srcset="./images/desk/apple_desk@1x.png 1x, ./images/desk/apple_desk@2x.png 2x" >
               <source media="(min-width: 768px)" srcset="./images/tabl/apple_tabl@1x.png 1x, ./images/tabl/apple_tabl@2x.png 2x" >
               <source media="(max-width: 767px)" srcset="./images/mob/apple_mob@1x.png 1x, ./images/mob/apple_mob@2x.png 2x" >
-              <img class="offerings-pic" src="./images//desk//fish-salad_desk@1x.jpg" alt="image-of-apple" 
-                      
+              <img class="offerings-pic" src="./images/desk/apple_desk@1x.png" alt="image-of-apple"
                         />
             </picture>
           </div>
@@ -143,7 +138,16 @@
               </p>
             </li>
           </ul>
-          <button class="offerings-btn button" type="button">Order Now</button>
+
+          <div class="btn-read-more-div">
+            <button class="offerings-btn button" type="button">Order Now</button>
+            <div class="icon-div">
+              <p class="read-more-text">Read More</p>
+              <svg class="read-more-icon" width="14" height="14">
+                <use href="./images/sprite.svg#read-more-icon"></use>
+              </svg>
+            </div>
+          </div>
         </div>  
         
       </section>
@@ -158,35 +162,66 @@
             <ul class="favorites-list">
               <li class="favorites-item">
                 <div class="fav-item-div">
-                  <img class="favorites-img" src="./images/gamburger.png" alt="gamburger" width="315" height="315"/>
+                  <picture> 
+                    <source media="(min-width: 1280px)" srcset="./images/desk/burger_desk@1x.png 1x, ./images/desk/burger_desk@2x.png 2x" >
+                    <source media="(min-width: 768px)" srcset="./images/tabl/burger_tablet@1x.png 1x, ./images/tabl/burger_tablet@2x.png 2x" >
+                    <source media="(max-width: 767px)" srcset="./images/mob/burger_mob@1x.png 1x, ./images/mob/burger_mob@2x.png 2x" >
+                    <img class="favorites-img" src="./images/desk/burger_desk@1x.png" alt="photo of gamburger" />
+                  </picture>
+                  
                 </div>
               </li>
               <li class="favorites-item">
                 <div class="fav-item-div">
-                  <img class="favorites-img" src="./images/Pasta.png" alt="pasta" width="315" height="315" loading="lazy"/>
+                  <picture> 
+                    <source media="(min-width: 1280px)" srcset="./images/desk/pasta_desk@1x.png 1x, ./images/desk/pasta_desk@2x.png 2x" >
+                    <source media="(min-width: 768px)" srcset="./images/tabl/pasta_tablet@1x.png 1x, ./images/tabl/pasta_tablet@2x.png 2x" >
+                    <source media="(max-width: 767px)" srcset="./images/mob/pasta_mob@1x.png 1x, ./images/mob/pasta_mob@2x.png 2x" >
+                    <img class="favorites-img" src="./images/desk/pasta_desk@1x.png" alt="photo of pasta"  loading="lazy"/>
+                  </picture>
                 </div>
               </li>
               <li class="favorites-item">
                 <div class="fav-item-div">
-                  <img class="favorites-img" src="./images/pizza.png" alt="pizza" width="315" height="315" loading="lazy"/> 
+                  <picture> 
+                    <source media="(min-width: 1280px)" srcset="./images/desk/pizza_desk@1x.png 1x, ./images/desk/pizza_desk@2x.png 2x" >
+                    <source media="(min-width: 768px)" srcset="./images/tabl/pizza_tablet@1x.png 1x, ./images/tabl/pizza_tablet@2x.png 2x" >
+                    <source media="(max-width: 767px)" srcset="./images/mob/pizza_mob@1x.png 1x, ./images/mob/pizza_mob@2x.png 2x" >
+                    <img class="favorites-img" src="./images/mob/pizza_mob@1x.png" alt="photo of pizza" loading="lazy"/> 
+                  </picture>
+                  
                 </div>
               </li>
-              <li class="favorites-item">
+              <li class="favorites-item fav-item-hidden">
                 <div class="fav-item-div">
-                  <img class="favorites-img" src="./images/chicken.png" alt="chicken" width="315" height="315"
-                  loading="lazy"/>
+                  <picture> 
+                    <source media="(min-width: 1280px)" srcset="./images/desk/chicken_desk@1x.png 1x, ./images/desk/chicken_desk@2x.png 2x" >
+                    <source media="(min-width: 768px)" srcset="./images/tabl/chicken_tablet@1x.png 1x, ./images/tabl/chicken_tablet@2x.png 2x" >
+                   
+                    <img class="favorites-img" src="./images/desk/chicken_desk@1x.png" alt="chicken" loading="lazy"/>
+                  </picture>
+                  
                 </div>
               </li>
-              <li class="favorites-item">
+              <li class="favorites-item fav-item-hidden">
                 <div class="fav-item-div">
-                  <img class="favorites-img" src="./images/salat.png" alt="salat" width="315"height="315" 
-                  loading="lazy"/>
+                  <picture> 
+                    <source media="(min-width: 1280px)" srcset="./images/desk/salat_desk@1x.png 1x, ./images/desk/salat_desk@2x.png 2x" >
+                    <source media="(min-width: 768px)" srcset="./images/tabl/salat_tablet@1x.png 1x, ./images/tabl/salat_tablet@2x.png 2x" >
+                   
+                    <img class="favorites-img" src="./images/desk/salat_desk@1x.png" alt="photo of salat" loading="lazy"/>
+                  </picture>
                 </div>
               </li>
-              <li class="favorites-item">
+              <li class="favorites-item fav-item-hidden">
                 <div class="fav-item-div">
-                  <img class="favorites-img" src="./images/borshch.png" alt="borshch" width="315" height="315" 
-                  loading="lazy"/>
+                  <picture> 
+                    <source media="(min-width: 1280px)" srcset="./images/desk/borshch_desk@1x.png 1x, ./images/desk/borshch_desk@2x.png 2x" >
+                    <source media="(min-width: 768px)" srcset="./images/tabl/borshch_tablet@1x.png 1x, ./images/tabl/borshch_tablet@2x.png 2x" >
+          
+                    <img class="favorites-img" src="./images/desk/borshch_desk@1x.png" alt="photo of borshch" loading="lazy"/>
+                  </picture>
+                  
                 </div>
               </li>
             </ul>

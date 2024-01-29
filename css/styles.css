@@ -62,12 +62,13 @@ img {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 766px;
+        padding: 0 32px;
         }
     }
     @media screen and (min-width: 1280px) {
         .container {
             max-width: 1248px;
-            padding: 0 32px;
+            
         }
     }
 
@@ -196,7 +197,8 @@ img {
 @media screen and (min-width: 768px) { 
     .hero-section {
         padding-top: 51px;
-        padding-bottom: 64px;
+        padding-bottom: 84px;
+       
         position: relative;
     } 
     .hero-title {
@@ -219,7 +221,7 @@ img {
     right: 40px;
     display: flex;
     align-items: center;
-    width: 336px;
+    width: 320px;
     height: 320px;
     border-radius: 320px;
     border: 14px solid var(--Yellow-main, #FFE550);
@@ -253,7 +255,11 @@ img {
     border-radius: 580px;
     border: 26px solid var(--Yellow-main, #FFE550);
     background-color: transparent;
-}}
+}
+.hero-pic {
+    margin-left: 0;
+}
+}
 
 /* Offerings section*/
 
@@ -268,7 +274,6 @@ img {
     left: 32px;
 }
 .offerings-img-div { 
-    
     width: 202px;
     height: 256px;
     margin-bottom: 60px;
@@ -278,11 +283,6 @@ img {
     top: 30px;
     left: 59px;
 }
-
-.right-side-div {
-    margin-top: 66px;
-} 
-
 .offerings-title {
     font-size: 28px;
     font-weight: 700;
@@ -298,7 +298,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .offerings-container {    
+.offerings-container {    
     position: relative;
 }
 .offerings-ellips {
@@ -334,8 +334,8 @@ img {
 @media screen and (min-width: 1280px) { 
 .offerings-container {
     background-color: #FFE550;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 167px;
+    padding-bottom: 124px;
    
     display: flex;
     gap: 90px;
@@ -343,7 +343,7 @@ img {
 }
 .offerings-ellips {
     position: absolute;
-    top: 555px;
+    top: 575px;
     left: 171px;
 }
 .offerings-div {
@@ -352,12 +352,11 @@ img {
     align-items: center;
     width: 550px;
     height: 550px;
-    
     border-radius: 550px;
     border: 5px solid rgba(255, 255, 255, 0.50);
+   
     background-color: transparent;
-    margin-top: 167px;
-    margin-bottom: 124px;
+
 }
 .offerings-img-div { 
     display: flex;
@@ -368,15 +367,14 @@ img {
     border-radius: 502px;
     background-color: #FEFEFE;
     margin-bottom: 8px;
+    
 }   
 .offerings-pic {
     position: absolute;
     top: 113px;
     left: 100px;
 }
-.right-side-div {
-    margin-top: 196px;
-} 
+
 .offerings-title {
     line-height: 50.4px;
     margin-bottom: 20px;
@@ -489,7 +487,6 @@ img {
     }
 }
 
-
 .offerings-btn:hover,
 .offerings-btn:focus {
     background-color: #BBF330;
@@ -499,9 +496,220 @@ img {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 10px 0;
+    
     border: 2px solid #7EB101;
     background-color: #FFF;
     width: 106px;
     height: 40px;
+}
+
+.btn-read-more-div {
+ display: flex;
+ align-items: center;
+ gap: 24px;
+}
+
+.icon-div {
+   display: flex;
+   align-items: center;
+
+}
+
+.read-more-text:hover {
+    color: #BBF330;
+} 
+.read-more-text {
+    font-size: 13.667px;
+    line-height: 1.5; 
+}
+.read-more-icon {
+
+}
+@media screen and (min-width: 1280px) {
+    .icon-div {
+   display: none;
+    }
+}
+
+/* Favorites section*/
+
+.favorite-container {
+    padding: auto;
+}
+
+.favorites-div {
+    margin: 0;
+    padding: 66px 0 60px 0;
+}
+
+.favorites-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.favorites-text {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+.fav-list-div {  
+}
+.fav-item-div:hover {
+    background-color: #FFE550;
+    border-color: #BBF330;
+}
+
+.fav-item-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 280px;
+    height: 282px;
+    border-radius: 140px;
+    border: 11px solid #FFE550;
+    background-color: transparent;
+}
+
+.favorites-img {
+    margin: 0;
+    padding: 0;
+}
+
+.fav-item-hidden {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+.favorites-div {
+    margin: 0;
+    padding: 94px 0 80px 0;
+}
+.favorites-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.favorites-text {
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+.favorites-item {
+    width: calc((100% - 32px) / 2);    
+}
+.fav-item-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 336px;
+    height: 338px;
+
+    border-radius: 167.166px;
+    border: 14px solid #FFE550;
+    background-color: transparent;
+}
+.fav-item-hidden {
+    display: flex;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.favorites-div {
+    margin: 0;
+    padding: 120px 0 101px 0;
+}
+.favorites-text {
+    margin-bottom: 40px;
+}
+.favorites-item {
+    width: calc((100% - 64px) / 3);   
+}
+.fav-item-div { 
+    width: 395px;
+    height: 397px;
+    border-radius: 197.5px;
+    border: 16px solid #FFE550;
+    background-color: transparent;
+}
+}
+
+
+/* Customers section*/
+.customers-container {
+    background-color: #FFE550;
+    padding: auto;
+}
+
+.customers-div {
+    width: 1141px;
+    margin: 0;
+    padding: 140px 0px 126px 32px;
+}
+.customers-title {
+    width: 501px;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+
+}
+.customers-text {
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 139px;
+}
+
+.stars-icon {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+.customers-item {
+    position: relative;
+    padding: 0 14px;
+    background-color: #fff;
+    border-radius: 0px 30px 30px 30px;
+}
+
+.customers-list-text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 59px;
+    
+}
+
+.item-down-div {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 160px;
+    height: 53px;
+    margin-top: 41px;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.item-down-img {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    align-self: center;
 }
