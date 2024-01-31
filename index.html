@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food delivery</title>
-     <!-- Favicon -->
-     <link
-     rel="shortcut icon"
-     href="./images/food-favicon.png"
-     type="image/x-icon"
-     />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/food-favicon.png"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,73 +47,118 @@
             </li>
           </ul>
 
-          <button class="header-menu-btn" type="button" aria-label="Open menu button">
+          <button
+            class="header-menu-btn"
+            type="button"
+            aria-label="Open menu button"
+          >
             <svg class="header-menu-btn-icon" width="28" height="28">
               <use href="./images/sprite.svg#icon-food_menu"></use>
             </svg>
           </button>
-          <button class="header-btn button" type="button" data-modal-open>Order Now</button>
+          <button class="header-btn button" type="button" data-modal-open>
+            Order Now
+          </button>
         </nav>
       </div>
     </header>
     <main>
       <!-- Hero section -->
       <section class="container hero-section">
-        <div class="hero-div">  
+        <div class="hero-div">
           <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
           <p class="hero-text">
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-            </p>
-         <button class="hero-btn button" type="button">Order Now</button>
-         
-      </div>
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
+          <button class="hero-btn button" type="button">Order Now</button>
+        </div>
 
-      <div class="hero-img-div"> 
-        <picture>
-          <source media="(min-width: 1280px)" srcset="./images/desk/hero_desk@1x.png 1x, ./images/desk/hero_desk@2x.png 2x" >
-          <source media="(min-width: 768px)" srcset="./images/tabl/hero_tabl@1x.png 1x, ./images/tabl/hero_tabl@2x.png 2x" >
-    
-          <img
-                class="hero-pic"
-                src="./images/desk/hero_desk@1x.png"
-                alt="images-of-salad"
-                />
-        </picture>
-      </div>
-    </section>
+        <div class="hero-img-div">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./images/desk/hero_desk@1x.webp 1x,
+                ./images/desk/hero_desk@2x.webp 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/desk/hero_desk@1x.webp 1x,
+                ./images/tabl/hero_tabl@2x.webp 2x
+              "
+            />
+
+            <img
+              class="hero-pic"
+              src="./images/desk/hero_desk@1x.webp"
+              alt="images-of-salad"
+            />
+          </picture>
+        </div>
+      </section>
 
       <!-- Offerings section -->
       <section class="container offerings-container">
-        <img class="offerings-ellips" src="./images/shaddow-elllips.png" alt="" width="252" height="87"> 
-        <div class="offerings-div">  
-        
-          <div class="offerings-img-div"> 
+        <img
+          class="offerings-ellips"
+          src="./images/shaddow-elllips.png"
+          alt=""
+          width="252"
+          height="87"
+        />
+        <div class="offerings-div">
+          <div class="offerings-img-div">
             <picture>
-              <source media="(min-width: 1280px)" srcset="./images/desk/apple_desk@1x.webp 1x, ./images/desk/apple_desk@2x.webp 2x" >
-              <source media="(min-width: 768px)" srcset="./images/tabl/apple_tabl@1x.webp 1x, ./images/tabl/apple_tabl@2x.webp 2x" >
-              <source media="(max-width: 767px)" srcset="./images/mob/apple_mob@1x.webp 1x, ./images/mob/apple_mob@2x.webp 2x" >
-              <img class="offerings-pic" src="./images/desk/apple_desk@1x.webp" alt="image-of-apple"
-                        />
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./images/desk/apple_desk@1x.webp 1x,
+                  ./images/desk/apple_desk@2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/tabl/apple_tabl@1x.webp 1x,
+                  ./images/tabl/apple_tabl@2x.webp 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mob/apple_mob@1x.webp 1x,
+                  ./images/mob/apple_mob@2x.webp 2x
+                "
+              />
+              <img
+                class="offerings-pic"
+                src="./images/desk/apple_desk@1x.webp"
+                alt="image-of-apple"
+              />
             </picture>
           </div>
         </div>
-        <div class="right-side-div">   
-          <ul class="offerings-list-one"> 
-            <li> 
-              <h2 class="offerings-title">What’s Special About Our Offerings</h2>
+        <div class="right-side-div">
+          <ul class="offerings-list-one">
+            <li>
+              <h2 class="offerings-title">
+                What’s Special About Our Offerings
+              </h2>
               <p class="offerings-text">
-              With our platform, you can browse through a diverse selection of
-              cuisines and local restaurants, and choose from a variety of dishes
-              that cater to your specific taste buds.
+                With our platform, you can browse through a diverse selection of
+                cuisines and local restaurants, and choose from a variety of
+                dishes that cater to your specific taste buds.
               </p>
             </li>
           </ul>
           <ul class="offerings-list-two">
             <li class="offerings-item">
-              <div class="offerings-icon-div"> 
+              <div class="offerings-icon-div">
                 <svg class="offerings-item-icon" width="32" height="32">
                   <use href="./images/sprite.svg#icon-Vector"></use>
                 </svg>
@@ -125,22 +170,24 @@
               </p>
             </li>
             <li class="offerings-item">
-              <div class="offerings-icon-div"> 
+              <div class="offerings-icon-div">
                 <svg class="offerings-item-icon" width="32" height="32">
                   <use href="./images/sprite.svg#icon-touch-app"></use>
                 </svg>
               </div>
               <h3 class="offerings-subtitle">Easy To Order</h3>
               <p class="offerings-list-text">
-                You can browse through a wide variety of cuisines and restaurants,
-                select your favorite meals, and place your order in just a few
-                clicks.
+                You can browse through a wide variety of cuisines and
+                restaurants, select your favorite meals, and place your order in
+                just a few clicks.
               </p>
             </li>
           </ul>
 
           <div class="btn-read-more-div">
-            <button class="offerings-btn button" type="button">Order Now</button>
+            <button class="offerings-btn button" type="button">
+              Order Now
+            </button>
             <div class="icon-div">
               <p class="read-more-text">Read More</p>
               <svg class="read-more-icon" width="14" height="14">
@@ -148,80 +195,194 @@
               </svg>
             </div>
           </div>
-        </div>  
-        
+        </div>
       </section>
 
       <!-- Favorites section -->
       <section class="container favorite-container">
-        <div class="favorites-div"> 
+        <div class="favorites-div">
           <h2 class="favorites-title">Some of Our Favorites</h2>
           <p class="favorites-text">Looking for something delicious?</p>
-          
+
           <div class="fav-list-div">
             <ul class="favorites-list">
               <li class="favorites-item">
                 <div class="fav-item-div">
-                  <picture> 
-                    <source media="(min-width: 1280px)" srcset="./images/desk/burger_desk@1x.webp 1x, ./images/desk/burger_desk@2x.webp 2x" >
-                    <source media="(min-width: 768px)" srcset="./images/tabl/burger_tablet@1x.webp 1x, ./images/tabl/burger_tablet@2x.webp 2x" >
-                    <source media="(max-width: 767px)" srcset="./images/mob/burger_mob@1x.webp 1x, ./images/mob/burger_mob@2x.webp 2x" >
-                    <img class="favorites-img" src="./images/desk/burger_desk@1x.webp" alt="photo of gamburger" />
+                  <picture>
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./images/desk/burger_desk@1x.webp 1x,
+                        ./images/desk/burger_desk@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl/burger_tablet@1x.webp 1x,
+                        ./images/tabl/burger_tablet@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mob/burger_mob@1x.webp 1x,
+                        ./images/mob/burger_mob@2x.webp 2x
+                      "
+                    />
+                    <img
+                      class="favorites-img"
+                      src="./images/desk/burger_desk@1x.webp"
+                      alt="photo of gamburger"
+                    />
                   </picture>
-                  
                 </div>
               </li>
               <li class="favorites-item">
                 <div class="fav-item-div">
-                  <picture> 
-                    <source media="(min-width: 1280px)" srcset="./images/desk/pasta_desk@1x.webp 1x, ./images/desk/pasta_desk@2x.webp 2x" >
-                    <source media="(min-width: 768px)" srcset="./images/tabl/pasta_tablet@1x.webp 1x, ./images/tabl/pasta_tablet@2x.webp 2x" >
-                    <source media="(max-width: 767px)" srcset="./images/mob/pasta_mob@1x.webp 1x, ./images/mob/pasta_mob@2x.webp 2x" >
-                    <img class="favorites-img" src="./images/desk/pasta_desk@1x.webp" alt="photo of pasta"  loading="lazy"/>
+                  <picture>
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./images/desk/pasta_desk@1x.webp 1x,
+                        ./images/desk/pasta_desk@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl/pasta_tablet@1x.webp 1x,
+                        ./images/tabl/pasta_tablet@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mob/pasta_mob@1x.webp 1x,
+                        ./images/mob/pasta_mob@2x.webp 2x
+                      "
+                    />
+                    <img
+                      class="favorites-img"
+                      src="./images/desk/pasta_desk@1x.webp"
+                      alt="photo of pasta"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </li>
               <li class="favorites-item">
                 <div class="fav-item-div">
-                  <picture> 
-                    <source media="(min-width: 1280px)" srcset="./images/desk/pizza_desk@1x.webp 1x, ./images/desk/pizza_desk@2x.webp 2x" >
-                    <source media="(min-width: 768px)" srcset="./images/tabl/pizza_tablet@1x.webp 1x, ./images/tabl/pizza_tablet@2x.webp 2x" >
-                    <source media="(max-width: 767px)" srcset="./images/mob/pizza_mob@1x.webp 1x, ./images/mob/pizza_mob@2x.webp 2x" >
-                    <img class="favorites-img" src="./images/mob/pizza_mob@1x.png" alt="photo of pizza" loading="lazy"/> 
+                  <picture>
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./images/desk/pizza_desk@1x.webp 1x,
+                        ./images/desk/pizza_desk@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl/pizza_tablet@1x.webp 1x,
+                        ./images/tabl/pizza_tablet@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mob/pizza_mob@1x.webp 1x,
+                        ./images/mob/pizza_mob@2x.webp 2x
+                      "
+                    />
+                    <img
+                      class="favorites-img"
+                      src="./images/mob/pizza_mob@1x.png"
+                      alt="photo of pizza"
+                      loading="lazy"
+                    />
                   </picture>
-                  
                 </div>
               </li>
               <li class="favorites-item fav-item-hidden">
                 <div class="fav-item-div">
-                  <picture> 
-                    <source media="(min-width: 1280px)" srcset="./images/desk/chicken_desk@1x.webp 1x, ./images/desk/chicken_desk@2x.webp 2x" >
-                    <source media="(min-width: 768px)" srcset="./images/tabl/chicken_tablet@1x.webp 1x, ./images/tabl/chicken_tablet@2x.webp 2x" >
-                   
-                    <img class="favorites-img" src="./images/desk/chicken_desk@1x.webp" alt="photo of chicken" loading="lazy"/>
+                  <picture>
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./images/desk/chicken_desk@1x.webp 1x,
+                        ./images/desk/chicken_desk@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl/chicken_tablet@1x.webp 1x,
+                        ./images/tabl/chicken_tablet@2x.webp 2x
+                      "
+                    />
+
+                    <img
+                      class="favorites-img"
+                      src="./images/desk/chicken_desk@1x.webp"
+                      alt="photo of chicken"
+                      loading="lazy"
+                    />
                   </picture>
-                  
                 </div>
               </li>
               <li class="favorites-item fav-item-hidden">
                 <div class="fav-item-div">
-                  <picture> 
-                    <source media="(min-width: 1280px)" srcset="./images/desk/salat_desk@1x.webp 1x, ./images/desk/salat_desk@2x.webp 2x" >
-                    <source media="(min-width: 768px)" srcset="./images/tabl/salat_tablet@1x.webp 1x, ./images/tabl/salat_tablet@2x.webp 2x" >
-                   
-                    <img class="favorites-img" src="./images/desk/salat_desk@1x.webp" alt="photo of salad with fish" loading="lazy"/>
+                  <picture>
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./images/desk/salat_desk@1x.webp 1x,
+                        ./images/desk/salat_desk@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl/salat_tablet@1x.webp 1x,
+                        ./images/tabl/salat_tablet@2x.webp 2x
+                      "
+                    />
+
+                    <img
+                      class="favorites-img"
+                      src="./images/desk/salat_desk@1x.webp"
+                      alt="photo of salad with fish"
+                      loading="lazy"
+                    />
                   </picture>
                 </div>
               </li>
               <li class="favorites-item fav-item-hidden">
                 <div class="fav-item-div">
-                  <picture> 
-                    <source media="(min-width: 1280px)" srcset="./images/desk/borshch_desk@1x.webp 1x, ./images/desk/borshch_desk@2x.webp 2x" >
-                    <source media="(min-width: 768px)" srcset="./images/tabl/borshch_tablet@1x.webp 1x, ./images/tabl/borshch_tablet@2x.webp 2x" >
-          
-                    <img class="favorites-img" src="./images/desk/borshch_desk@1x.webp" alt="photo of borshch" loading="lazy"/>
+                  <picture>
+                    <source
+                      media="(min-width: 1280px)"
+                      srcset="
+                        ./images/desk/borshch_desk@1x.webp 1x,
+                        ./images/desk/borshch_desk@2x.webp 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/tabl/borshch_tablet@1x.webp 1x,
+                        ./images/tabl/borshch_tablet@2x.webp 2x
+                      "
+                    />
+
+                    <img
+                      class="favorites-img"
+                      src="./images/desk/borshch_desk@1x.webp"
+                      alt="photo of borshch"
+                      loading="lazy"
+                    />
                   </picture>
-                  
                 </div>
               </li>
             </ul>
@@ -231,23 +392,31 @@
 
       <!-- Customers section -->
       <section class="container customers-container">
-        <div class="customers-div"> 
+        <div class="customers-div">
           <h2 class="customers-title">What our Customers Say</h2>
-          <p class="customers-text">Don't just take our word for it - see what our satisfied customers
-          have to say </p>
-          <div class="review-cards">    
+          <p class="customers-text">
+            Don't just take our word for it - see what our satisfied customers
+            have to say
+          </p>
+          <div class="review-cards">
             <ul class="customers-list">
               <li class="customers-item">
                 <svg class="stars-icon" width="101" height="16">
                   <use href="./images/sprite.svg#icon-Stars-icons"></use>
                 </svg>
-                <p class="customers-list-text">  
-                      “The Best app I have used to order food in a while, so many
-                      options to choose from too, I would recommend to a freind, No
-                      questions asked”
+                <p class="customers-list-text">
+                  “The Best app I have used to order food in a while, so many
+                  options to choose from too, I would recommend to a freind, No
+                  questions asked”
                 </p>
                 <div class="item-down-div">
-                  <img class="item-down-img"  src="./images/face-one.png" alt="face-icon" width="48" height="48">
+                  <img
+                    class="item-down-img"
+                    src="./images/face-one.png"
+                    alt="face-icon"
+                    width="48"
+                    height="48"
+                  />
                   <p class="customers-list-title">Sumith Shah</p>
                   <p class="customers-text-small">Some Dude</p>
                 </div>
@@ -257,41 +426,74 @@
                   <use href="./images/sprite.svg#icon-Stars-icons"></use>
                 </svg>
                 <p class="customers-list-text">
-                    “The ease with which I can just go in and order what i want was
-                    amazing, It has been a very pleasant experience ordering from this
-                    app”
+                  “The ease with which I can just go in and order what i want
+                  was amazing, It has been a very pleasant experience ordering
+                  from this app”
                 </p>
-        
+
                 <div class="item-down-div">
-                  <img class="item-down-img" src="./images/face-two.png" alt="face-icon" width="48" height="48">
+                  <img
+                    class="item-down-img"
+                    src="./images/face-two.png"
+                    alt="face-icon"
+                    width="48"
+                    height="48"
+                  />
                   <p class="customers-list-title">Sumith Shah</p>
                   <p class="customers-text-small">Some Dude</p>
                 </div>
               </li>
             </ul>
-          </div>  
+          </div>
         </div>
       </section>
 
       <!-- Subscribe section -->
       <section class="container subscribe-container">
-        <ul class="subscribes-list"> 
-          <li> 
+        <picture class="subscribe-picture-small">
+          <source media="(max-width: 767px)"
+          srcset="./images/mob/banan_mob@1x.webp 1x, ./images/mob/banan_mob@2x.webp 2x">
+          <source media="(min-width: 768px)"
+          srcset="./images/tabl/banan_tabl@1x.webp 1x, ./images/tabl/banan_tabl@2x.webp 2x
+          ">
+          <img
+            class="subscribe-banana-mob"
+            src="./images/mob/banan_mob@1x.webp 1x, ./images/mob/banan_mob@2x.webp 2x"
+            alt="photo of banana"
+            loading="lazy"
+          />
+        </picture>
+        <ul class="subscribes-list">
+          <li>
             <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
             <p class="subscribe-text">
-              Order now and receive 10% off your first meal with Enjoy Your Favorite
-              Food From Anywhere.
-            </p>  
-            <div class="subscribes-div-small"> 
+              Order now and receive 10% off your first meal with Enjoy Your
+              Favorite Food From Anywhere.
+            </p>
+            <div class="subscribes-div-small">
               <form class="subscribe-form-small">
-                <input class="input-form-small" type="text" placeholder="Enter your email">
+                <input
+                  class="input-form-small"
+                  type="text"
+                  placeholder="Enter your email"
+                />
               </form>
-              <button class="subscribe-button button" type="submit">Subscribe</button>
-            </div>  
-          </li>  
-          <li> 
-            <img class="subscribe-pic" src="./images/banan.svg" alt="banan" width="608" height="266" />
-          </li>  
+              <button class="subscribe-button button" type="submit">
+                Subscribe
+              </button>
+            </div>
+          </li>
+          <li>
+
+            <picture class="subscribe-banana-desk">
+              <source srcset="./images/desk/banan_desk@1x.webp 1x, ./images/desk/banan_desk@2x.webp 2x">
+              <img
+                src="./images/desk/banan_desk@1x.webp"
+                width="608"
+                height="266"
+              />
+            </picture>
+          </li>
         </ul>
       </section>
     </main>
@@ -299,75 +501,104 @@
     <!-- Footer section -->
     <footer class="container">
       <div class="footer-container">
-          
-         
-          <div class="footer-left-side">
-            <nav class="footer-nav">
-              <img class="footer-logo" src="./images/logo.svg" alt="footer-logo" width="66" height="52" />
-              <ul class="footer-nav-list">
-                <li><a class="nav-link">Home</a></li>
-                <li><a class="nav-link">About</a></li>
-                <li><a class="nav-link">Service</a></li>
-                <li><a class="nav-link">Menu</a></li>
-                <li><a class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
-            <ul class="footer-list-down">
-                <li><a class="link-down" href="">Privacy Policy</a></li>
-                <li><a class="link-down" href="">Terms of Service</a></li>
-                <li><a class="link-down" href="">Cookies Settings</a></li>
+        <div class="footer-left-side">
+          <nav class="footer-nav">
+            <img
+              class="footer-logo"
+              src="./images/logo.svg"
+              alt="footer-logo"
+              width="66"
+              height="52"
+            />
+            <ul class="footer-nav-list">
+              <li><a class="nav-link">Home</a></li>
+              <li><a class="nav-link">About</a></li>
+              <li><a class="nav-link">Service</a></li>
+              <li><a class="nav-link">Menu</a></li>
+              <li><a class="nav-link">Contact</a></li>
             </ul>
+          </nav>
+          <ul class="footer-list-down">
+            <li><a class="link-down" href="">Privacy Policy</a></li>
+            <li><a class="link-down" href="">Terms of Service</a></li>
+            <li><a class="link-down" href="">Cookies Settings</a></li>
+          </ul>
+        </div>
+        <!-- Modal window -->
+        <div class="footer-right-side">
+          <div class="footer-form-div">
+            <form class="subscribe-form" name="subscribe">
+              <label class="subscribe-label" for="input-form">
+                Subscribe
+              </label>
+              <input
+                id="input-form"
+                class="subscribe-form-input"
+                name="email"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </form>
+            <button class="subscribe-btn button" type="submit">
+              Subscribe
+            </button>
           </div>
-          <!-- Modal window -->
-          <div class="footer-right-side">
-            <div class="footer-form-div">
-              <form class="subscribe-form" name="subscribe" >
-                <label class="subscribe-label" for="input-form">
-                  Subscribe
-                </label>
-                <input id="input-form" class="subscribe-form-input" name="email"
-                    type="email"
-                    placeholder="Enter your email" />
-              </form>
-              <button class="subscribe-btn button" type="submit">Subscribe</button>
-            </div>
-            <p class="subscribe-text-down">By subscribing you agree to with our<a href=""> <span class="footer-privacy-span">Privacy Policy</span></a></p>
-        
-            <p class="subscribe-text-last">2022 FoodSta. All right reserved.</p>
-          </div>
-          
+          <p class="subscribe-text-down">
+            By subscribing you agree to with our<a href="">
+              <span class="footer-privacy-span">Privacy Policy</span></a
+            >
+          </p>
+
+          <p class="subscribe-text-last">2022 FoodSta. All right reserved.</p>
+        </div>
       </div>
     </footer>
 
     <!-- modal -->
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button class="modal-close-btn" type="button" data-modal-close>
-        <svg class="close-btn-icon" width="24" height="24">
-          <use href="./images/sprite.svg#icon-cross-icon"></use>
-        </svg>
-      </button>
-      <form class="modal-form">
-        <p class="modal-title">Order Form</p>
-        <div class="modal-field">
-          <label for="user-name" class="modal-lable">Name</label>
-          <input id="user-name" type="text" class="modal-input" name="user-name" placeholder="Your name">
-        </div>
-        <div class="modal-field">
-          <label for="user-phone" class="modal-lable">Phone number</label>
-          <input id="user-phone" type="tel" class="modal-input" name="user-phone" placeholder="+38(0_ _) _ _ _   _ _   _ _">
-        </div>
-        <div class="modal-field">
-          <label for="user-email" class="modal-lable">E-mail</label>
-          <input id="user-email" type="email" class="modal-input" name="user-email" placeholder="example@gmail.com">
-        </div>
-        <button class="modal-send-btn" type="submit">Send</button>
-      </form>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="close-btn-icon" width="24" height="24">
+            <use href="./images/sprite.svg#icon-cross-icon"></use>
+          </svg>
+        </button>
+        <form class="modal-form">
+          <p class="modal-title">Order Form</p>
+          <div class="modal-field">
+            <label for="user-name" class="modal-lable">Name</label>
+            <input
+              id="user-name"
+              type="text"
+              class="modal-input"
+              name="user-name"
+              placeholder="Your name"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-phone" class="modal-lable">Phone number</label>
+            <input
+              id="user-phone"
+              type="tel"
+              class="modal-input"
+              name="user-phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-lable">E-mail</label>
+            <input
+              id="user-email"
+              type="email"
+              class="modal-input"
+              name="user-email"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <button class="modal-send-btn" type="submit">Send</button>
+        </form>
+      </div>
     </div>
-  </div>
 
-  <script src="./js/modal.js"></script>
-
-
+    <script src="./js/modal.js"></script>
   </body>
 </html>
