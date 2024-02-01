@@ -499,29 +499,29 @@
     </main>
 
     <!-- Footer section -->
-    <footer class="container">
-      <div class="footer-container">
-       
-        <div class="footer-left-side">
-          <nav class="footer-nav">
-            <img
-              class="footer-logo"
-              src="./images/logo.svg"
-              alt="footer-logo"
-              width="66"
-              height="52"
-            />
+    <footer class="container footer-container">
+      <div class="footer-div-wrapper">
+        <nav class="footer-nav">
+          <img
+                class="footer-logo"
+                src="./images/logo.svg"
+                alt="footer-logo"
+                width="66"
+                height="52"
+          />
+          <div class="footer-left-side">
             <ul class="footer-nav-list">
-              <li><a class="nav-link">Home</a></li>
-              <li><a class="nav-link">About</a></li>
-              <li><a class="nav-link">Service</a></li>
-              <li><a class="nav-link">Menu</a></li>
-              <li><a class="nav-link">Contact</a></li>
+              <li class="nav-link-item"><a class="nav-link">Home</a></li>
+              <li class="nav-link-item"><a class="nav-link">About</a></li>
+              <li class="nav-link-item"><a class="nav-link">Service</a></li>
+              <li class="nav-link-item"><a class="nav-link">Menu</a></li>
+              <li class="nav-link-item"><a class="nav-link">Contact</a></li>
             </ul>
-          </nav>
+          </div>  
+        </nav>
 
            <!-- Modal window -->
-          <div class="footer-form-div">
+        <div class="footer-form-div">
             <form class="subscribe-form" name="subscribe">
               <label class="subscribe-label" for="input-form">
                 Subscribe
@@ -542,30 +542,33 @@
                 <span class="footer-privacy-span">Privacy Policy</span></a
               >
             </p>
-          </div>
-
+        </div>
+        <div class="footer-down-div">
+          <ul class="footer-list-down">
+              <li><a class="link-down" href="">Privacy Policy</a></li>
+              <li><a class="link-down" href="">Terms of Service</a></li>
+              <li><a class="link-down" href="">Cookies Settings</a></li>
+          </ul>
+          <p class="subscribe-text-last">2022 FoodSta. All right reserved.</p>
+        </div>
           
-        </div>  
+      </div>  
 
-        <ul class="footer-list-down">
-            <li><a class="link-down" href="">Privacy Policy</a></li>
-            <li><a class="link-down" href="">Terms of Service</a></li>
-            <li><a class="link-down" href="">Cookies Settings</a></li>
-        </ul>
-        <p class="subscribe-text-last">2022 FoodSta. All right reserved.</p>
-        <div class="background-div-mob">
+      
+        
+      <div class="background-div-mob">
           <img class="footer-apple-img"
           src="./images/mob/footer-apple_mob.png" alt="photo of fruits">
-        </div>
-        <div class="background-div-mob">
+      </div>
+      <div class="background-div-mob">
           <img class="footer-orange-img"
           src="./images/mob/footer-orange_mob.png" alt="photo of fruits">
-        </div>
-        <div class="background-div-mob">
+      </div>
+      <div class="background-div-mob">
           <img class="footer-fruits-img"
           src="./images/mob/footer-fruits_mob.png" alt="photo of fruits">
-        </div>
-        <div class="background-div-tabl">
+      </div>
+      <div class="background-div-tabl">
             <picture>
               <source srcset="./images/tabl/footer-fruits_tabl.png">
               <img
@@ -575,8 +578,8 @@
               width="732";
             />
             </picture>
-        </div>
-        <div class="background-div-desk">
+      </div>
+      <div class="background-div-desk">
             <picture>
               <source srcset="./images/desk/footer_desk.png">
               <img
@@ -585,10 +588,9 @@
               alt="footer-fruits"
             />
             </picture>
-        </div>
-        
-       
       </div>
+        
+    </div>
     </footer>
 
     <!-- modal -->
