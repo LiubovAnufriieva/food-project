@@ -11,46 +11,6 @@
 
 /* Subscribe section*/
 
-
-
-
-.input-form-small::placeholder {
-    color: #505050;
-    font-size: 12px;
-    line-height: 1.5; /* 18px */
-}
-
-.input-form-small {
-    width: 395px;
-    height: 42px;
-    padding: 12px 57px 12px 12px;
-
-    line-height: 1.5;
-    
-    border: 1px solid  #FFE550;
-    border-radius: 30px;
-    background-color: transparent;
-}
-
-.subscribe-button:hover,
-.subscribe-button:focus {
-    background-color: #FFE550;
-}
-.subscribe-button {
-    line-height: 19.5px;
-    display: inline-flex;
-    padding: 11px 22px;
-    justify-content: center;
-    align-items: center;
-    width: 103px;
-    height: 42px;
-    border: none;
-    background-color: #BBF330;
-}
-
-.subscribe-pic {
-}
-
 /* Footer section */
 
 
@@ -63,7 +23,6 @@
     width: 1280px;
     height: 395px;  
 }
-
 .background-div {
     position: absolute;
     top: 129px;
@@ -76,13 +35,10 @@
      /* Щоб забезпечити, що вміст знаходиться над фоновим зображенням */
     width: 100%;
 }
-
-
 .footer-left-side {
     display: block;
     align-content: space-between;
 }
-
 .footer-nav {
     display: flex;
     align-items: center;
