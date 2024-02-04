@@ -1,5 +1,6 @@
-function toggleModalVisibility(isVisible) {
-    return isVisible = !isVisible;
-  }
-  console.log(toggleModalVisibility(true));
-  console.log(toggleModalVisibility(false));
+function calculateLength(string) {
+  return `Довжина рядка: ${string.length}`;
+}
+
+console.log('Hello World');
+

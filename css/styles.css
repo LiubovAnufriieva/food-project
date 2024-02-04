@@ -1081,23 +1081,33 @@ img {
     .footer-container {
         position: relative;
         display: flex;
-        justify-content: space-between;
-        padding: 118px 0;
+        
+        flex-wrap: wrap;
+        padding: 118px 32px;
         margin: 0 auto;
         width: 768px;
         height: 506px;  
     }
-    .footer-list-down {
-        display: flex;
-        gap: 20px;
+    .footer-div-wrapper {
+        display: block;
+        flex-wrap: wrap;
         
+     }
+    .footer-logo {
+        position: absolute;
+        top: 100px;
+        left: 33px;
     }
+    
     .footer-nav {
         display: flex;
         align-items: center;
         justify-content: start;
-        margin: 0;
-        margin-bottom: 129px;
+        margin-left: 216px;
+        margin-bottom: 57px;
+    }
+    .footer-left-side {
+        width: 319px;
     }
     .footer-nav-list {
     display: flex;
@@ -1109,19 +1119,49 @@ img {
     .background-div-tabl {
         display: flex;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 24px;
+        left: 34px;
     }
     .background-div-desk {
         display: none;
-    
     }
     .footer-form-div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    
         gap: 13px;
         padding: 12px;
+    }
+    .form-btn-wrapper {
+        display: flex;
+        align-items: baseline;
+        gap: 13px;
+    }
+   
+    .subscribe-label {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+    .subscribe-form-input {
+        width: 100%;
+        height: 42px;
+        padding: 12px 61.5px 12px 12px;
+        align-items: center; 
+        border-radius: 30px;
+        border: 0.854px solid var(--Yellow-main, #FFE550);
+        background: var(--White, #FEFEFE);
+    }
+    .subscribe-btn {
+    
+    }
+    .footer-down-div {
+        padding-bottom: 100px;
+    }
+    .footer-list-down {
+        display: flex;
+        gap: 20px;
+    }
+    .subscribe-text-last {
+       
     }
 }
 
