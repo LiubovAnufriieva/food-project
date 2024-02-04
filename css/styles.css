@@ -951,7 +951,7 @@ img {
     position: relative;
     padding: 64px 0 60px;
     width: 320px;
-    height: 619px;
+  
 }
 .footer-apple-img {
     position: absolute;
@@ -1062,7 +1062,7 @@ img {
     text-decoration-line: underline;
 }
 .footer-down-div {
-    margin-bottom: 60px;
+    
 }
 .footer-list-down {
     display: flex;
@@ -1073,32 +1073,26 @@ img {
     text-align: center;
     font-size: 12px;
     margin: 0;
-    margin-top: 40px;
-   
 }
 
 @media screen and (min-width: 768px) {
     .footer-container {
         position: relative;
         display: flex;
-        
         flex-wrap: wrap;
         padding: 118px 32px;
         margin: 0 auto;
         width: 768px;
-        height: 506px;  
     }
     .footer-div-wrapper {
         display: block;
         flex-wrap: wrap;
-        
      }
     .footer-logo {
         position: absolute;
         top: 100px;
         left: 33px;
     }
-    
     .footer-nav {
         display: flex;
         align-items: center;
@@ -1119,15 +1113,14 @@ img {
     .background-div-tabl {
         display: flex;
         position: absolute;
-        top: 24px;
+        bottom: 0;
         left: 34px;
     }
     .background-div-desk {
         display: none;
     }
     .footer-form-div {
-    
-        gap: 13px;
+        margin-bottom: 100px;
         padding: 12px;
     }
     .form-btn-wrapper {
@@ -1150,18 +1143,17 @@ img {
         border: 0.854px solid var(--Yellow-main, #FFE550);
         background: var(--White, #FEFEFE);
     }
-    .subscribe-btn {
-    
-    }
     .footer-down-div {
-        padding-bottom: 100px;
+       display: flex;
+       align-items: baseline;
+       justify-content: space-between;
     }
     .footer-list-down {
         display: flex;
         gap: 20px;
     }
     .subscribe-text-last {
-       
+       margin-left: 234px;
     }
 }
 
@@ -1169,20 +1161,36 @@ img {
     .footer-container {
         position: relative;
         display: flex;
-        justify-content: space-between;
-        padding: 100px 0;
+        justify-content: center;
+        padding: 100px 0 100px;
         
         width: 1280px;
-        height: 395px;  
+         
+    }
+    .footer-div-wrapper {
+        display: flex;
+        justify-content: space-between;;
     }
     .footer-left-side {
         display: flex;
-        
+    }
+    .footer-nav {
+        display: flex;
+        align-items: baseline;
+        justify-content: start;
+        padding-top: 18px;
+        margin-left: 230px;
+        margin-bottom: 57px;
+    }
+
+    .footer-form-div {
+        margin-bottom: 0;
+        padding: 0;
     }
     .background-div-desk {
         display: flex;
         position: absolute;
-        top: 120px;
+        bottom: 0;
         left: 0;
     }
     .background-div-tabl {
@@ -1193,6 +1201,9 @@ img {
     margin: 0;
     margin-top: 80px;
     margin-left: 224px;
+}
+.subscribe-text-last {
+    margin-left: 780px;
 }
 }
 

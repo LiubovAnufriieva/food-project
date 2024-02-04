@@ -1,6 +1,5 @@
-function calculateLength(string) {
-  return `Довжина рядка: ${string.length}`;
+const str = 'Hello';
+for(let i =0; i < str.length; i += 1) {
+  console.log(str[i]);
 }
-
-console.log('Hello World');
 
