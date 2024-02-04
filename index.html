@@ -49,8 +49,9 @@
 
           <button
             class="header-menu-btn"
-            type="button"
+            type="button" data-modal-open
             aria-label="Open menu button"
+           
           >
             <svg class="header-menu-btn-icon" width="28" height="28">
               <use href="./images/sprite.svg#icon-food_menu"></use>
@@ -474,8 +475,10 @@
               <form class="subscribe-form-small">
                 <input
                   class="input-form-small"
-                  type="text"
+                  type="email"
                   placeholder="Enter your email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
+                  required
                 />
               </form>
               <button class="subscribe-button button" type="submit">
@@ -535,6 +538,8 @@
                   name="email"
                   type="email"
                   placeholder="Enter your email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
+                  required
                 />
               </form>
               <button class="subscribe-btn button" type="submit">

@@ -1037,10 +1037,7 @@ img {
     color:  #505050;
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-    border-color: #FFE450;
-}
+
 .subscribe-btn {
     width: 103px;
     height: 42px;
@@ -1072,7 +1069,7 @@ img {
 .subscribe-text-last {
     text-align: center;
     font-size: 12px;
-    margin: 0;
+    margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1153,7 +1150,12 @@ img {
         gap: 20px;
     }
     .subscribe-text-last {
-       margin-left: 234px;
+        margin-left: 234px;
+        margin-top: 0;
+    }   
+    .subscribe-btn:hover,
+    .subscribe-btn:focus {
+        background-color: #FFE450;
     }
 }
 
@@ -1196,15 +1198,18 @@ img {
     .background-div-tabl {
         display: none;
     }
+    .footer-down-div {
+        margin-left: 20px;
+    }
     .subscribe-text-last {
     font-size: 12px;
     margin: 0;
     margin-top: 80px;
     margin-left: 224px;
 }
-.subscribe-text-last {
-    margin-left: 780px;
-}
+    .subscribe-text-last {
+    margin-left: 740px;
+    }
 }
 
 
