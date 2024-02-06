@@ -530,12 +530,10 @@
             </label>
             <div class="form-btn-wrapper">
               
-              <form class="subscribe-form" name="subscribe">
-                
+              <form class="subscribe-form" >
                 <input
                   id="input-form"
                   class="subscribe-form-input"
-                  name="email"
                   type="email"
                   placeholder="Enter your email"
                   pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
@@ -640,6 +638,8 @@
               class="modal-input"
               name="user-email"
               placeholder="example@gmail.com"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
+              required
             />
           </div>
           <button class="modal-send-btn" type="submit">Send</button>
