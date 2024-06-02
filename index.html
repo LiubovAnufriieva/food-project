@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header-section">
+    <header class="header-section" id="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
@@ -36,14 +36,14 @@
           <ul class="header-list">
             <li class="header-item"><a class="header-link" href="">Home</a></li>
             <li class="header-item">
-              <a class="header-link" href="">About</a>
+              <a class="header-link" href="#customers">About</a>
             </li>
             <li class="header-item">
-              <a class="header-link" href="">Service</a>
+              <a class="header-link" href="#offerings">Service</a>
             </li>
-            <li class="header-item"><a class="header-link" href="">Menu</a></li>
+            <li class="header-item"><a class="header-link" href="#favorites">Menu</a></li>
             <li class="header-item">
-              <a class="header-link" href="">Contact</a>
+              <a class="header-link" href="#footer">Contact</a>
             </li>
           </ul>
 
@@ -54,7 +54,7 @@
             data-modal-open
           >
             <svg class="header-menu-btn-icon" width="28" height="28">
-              <use href="./images/sprite.svg#icon-food_menu"></use>
+              <use href="images/sprite.svg#icon-food_menu"></use>
             </svg>
           </button>
           <button class="header-btn button" type="button" data-modal-open>
@@ -65,7 +65,7 @@
     </header>
     <main>
       <!-- Hero section -->
-      <section class="container hero-section">
+      <section class="container hero-section" id="hero">
         <div class="hero-div">
           <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
           <p class="hero-text">
@@ -104,7 +104,7 @@
       </section>
 
       <!-- Offerings section -->
-      <section class="container offerings-container">
+      <section class="container offerings-container" id="offerings">
         <img
           class="offerings-ellips"
           src="./images/shaddow-elllips.png"
@@ -200,7 +200,7 @@
       </section>
 
       <!-- Favorites section -->
-      <section class="container favorite-container">
+      <section class="container favorite-container" id="favorites">
         <div class="favorites-div">
           <h2 class="favorites-title">Some of Our Favorites</h2>
           <p class="favorites-text">Looking for something delicious?</p>
@@ -392,7 +392,7 @@
       </section>
 
       <!-- Customers section -->
-      <section class="container customers-container">
+      <section class="container customers-container" id="customers">
         <div class="customers-div">
           <h2 class="customers-title">What our Customers Say</h2>
           <p class="customers-text">
@@ -450,7 +450,7 @@
       </section>
 
       <!-- Subscribe section -->
-      <section class="container subscribe-container">
+      <section class="container subscribe-container" id="subscribe">
         <picture class="subscribe-picture-small">
           <source media="(max-width: 767px)"
           srcset="./images/mob/banan_mob@1x.webp 1x, ./images/mob/banan_mob@2x.webp 2x">
@@ -503,7 +503,7 @@
     </main>
 
     <!-- Footer section -->
-    <footer class="container footer-container">
+    <footer class="container footer-container" id="footer">
       <div class="footer-div-wrapper">
         <nav class="footer-nav">
           <img
@@ -515,11 +515,11 @@
           />
           <div class="footer-left-side">
             <ul class="footer-nav-list">
-              <li class="nav-link-item"><a class="nav-link">Home</a></li>
-              <li class="nav-link-item"><a class="nav-link">About</a></li>
-              <li class="nav-link-item"><a class="nav-link">Service</a></li>
-              <li class="nav-link-item"><a class="nav-link">Menu</a></li>
-              <li class="nav-link-item"><a class="nav-link">Contact</a></li>
+              <li class="nav-link-item"><a class="header-link nav-link" href="#header">Home</a></li>
+              <li class="nav-link-item"><a class="header-link nav-link" href="#hero">About</a></li>
+              <li class="nav-link-item"><a class="header-link nav-link" href="#offerings">Service</a></li>
+              <li class="nav-link-item"><a class="header-link nav-link" href="#favorites">Menu</a></li>
+              <li class="nav-link-item"><a class="header-link nav-link" href="#subscribe">Contact</a></li>
             </ul>
           </div>  
         </nav>

@@ -8,6 +8,7 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 ol, ul {
@@ -217,10 +218,11 @@ img {
     }
 .hero-img-div {
     position: absolute;
-    top: 140px;
+    bottom: 50px;
     right: 40px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
     width: 320px;
     height: 320px;
     border-radius: 320px;
@@ -983,11 +985,12 @@ img {
 .footer-left-side {
     display: flex;
     justify-content: center;
+    gap: 20px;
 
 }
-.nav-link-item:not(:last-child) {
+/* .nav-link-item:not(:last-child) {
     margin-bottom: 20px;
-}
+} */
 
 .footer-logo {
     position: absolute;
@@ -1011,6 +1014,7 @@ img {
 /* footer form */
 .footer-form-div {
     margin-bottom: 60px;
+    text-align: center;
 }
 .subscribe-form {
     display: block;
@@ -1121,6 +1125,7 @@ img {
     .footer-form-div {
         margin-bottom: 100px;
         padding: 12px;
+        text-align: start;
     }
     .form-btn-wrapper {
         display: flex;
@@ -1187,6 +1192,7 @@ img {
     .footer-form-div {
         margin-bottom: 0;
         padding: 0;
+      
     }
     .background-div-desk {
         display: flex;
@@ -1204,10 +1210,11 @@ img {
     font-size: 12px;
     margin: 0;
     margin-top: 80px;
+    margin-left: 710px; 
     
 }
     .subscribe-text-last {
-     margin-left: 710px; 
+    
     }
 }
 
