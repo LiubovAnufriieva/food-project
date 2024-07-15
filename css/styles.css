@@ -138,6 +138,8 @@ img {
 .header-btn {
     display: block;
     margin: 20px 0 20px 30px;
+    align-content: center;
+    padding: 0 20px;
 }  
 .header-btn:hover,
 .header-btn:focus {
